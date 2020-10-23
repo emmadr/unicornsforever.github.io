@@ -6,11 +6,12 @@
   <hr/>
 
   <style>
-    body {
-      background-color: lightpink;
-    }
+   grad1 {
+     background-color: lightpink; /*for browsers that do not support gradients*/
+     background-image: linear gradient (lightpink, lightblue);
+      }
     /* style the header*/
-    .header {
+    .h1 {
     background-color: violet;
       padding: 20px;
       text-align: centre;
@@ -67,6 +68,9 @@
       
               
     <img src="istockphot.jpg" alt="unicorn with rainbow"/>
+    <div id="grad1"></div>
+  </body>
+</html>
     
   
   
